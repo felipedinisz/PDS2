@@ -12,7 +12,7 @@ int main () {
         cout << p[i] << endl;
     }
 
-    delete p;
+    delete[] p;
 
     return 0;
 }
