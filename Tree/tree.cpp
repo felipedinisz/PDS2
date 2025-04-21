@@ -62,7 +62,7 @@ NodeT* BST::removeNodeHelper(NodeT* root, int data) {
     } else if (data > root->data) {
         root->dir = removeNodeHelper(root->dir, data);
     } else {
-        // Nó encontrado
+        
 
         if (root->esq == nullptr && root->dir == nullptr) {
             delete root;
